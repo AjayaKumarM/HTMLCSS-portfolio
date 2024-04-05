@@ -1,0 +1,74 @@
+#title{
+    background-color: #0e1339;
+}
+
+#title .white-text{
+    color: white;
+}
+
+#About-me{
+    background-color: #89e3f5;
+    display: flex;
+    padding: 50px;
+}
+
+#About-me .title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#About-me .skills-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border: 5px solid #0e1339;
+}
+
+#About-me .tskills-title, .sskills-title{
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+#About-me .tskills, .sskills{
+    font-size: larger;
+    font-weight: 500;
+    list-style: none;
+}
+
+#About-me .tskillsmain-container{
+    display: flex;
+    justify-content: center;
+}
+
+#About-me .tskills-content ul li{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 698px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .tskills-content,
+    .sskills-content {
+        width: 100%;
+    }
+}
+
+
+#Projects .container{
+    padding-bottom: 100px;
+}
+
+#Contact{
+    background-color: #0e1339;
+}
+
+#Contact .textblue{
+    color:#2FB0E0;
+
+
+}
