@@ -57,6 +57,11 @@
     .sskills-content {
         width: 130%;
     }
+
+    #About-me .tskillsmain-container{
+        display: flex;
+        justify-content:space-between;
+    }
 }
 
 
