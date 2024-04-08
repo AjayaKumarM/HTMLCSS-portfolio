@@ -7,7 +7,7 @@
 }
 
 #About-me{
-    background-color: #89e3f5;
+    background-color: #0e1339;
     display: flex;
     padding: 50px;
 }
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-around;
     padding: 50px;
-    border: 5px solid #0e1339;
+    border: 5px solid #89e3f5;
 }
 
 #About-me .tskills-title, .sskills-title{
@@ -34,6 +34,7 @@
     font-size: larger;
     font-weight: 500;
     list-style: none;
+    color: aliceblue;
 }
 
 #About-me .tskillsmain-container{
