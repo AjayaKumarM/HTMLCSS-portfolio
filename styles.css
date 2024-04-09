@@ -79,6 +79,16 @@
     background-color: #0e1339;
 }
 
+#Contact .dis a{
+    text-decoration: none;
+    color: #2FB0E0;
+}
+
+#Contact .dis-w a{
+    text-decoration: none;
+    color: white;
+}
+
 #Contact .textblue{
     color:#2FB0E0;
 }
