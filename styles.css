@@ -21,7 +21,7 @@
 #About-me .skills-container{
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 30px;
     border: 5px solid #89e3f5;
 }
 
@@ -39,7 +39,7 @@
 
 #About-me .tskillsmain-container{
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
 #About-me .tskills-content ul li{
@@ -53,14 +53,20 @@
         flex-direction: column;
     }
 
-    .tskills-content,
+    .tskills-content ,
     .sskills-content {
         width: 130%;
     }
 
-    #About-me .tskillsmain-container{
+    #About-me .tskillsmain-container
+    {
         display: flex;
         justify-content:space-between;
+        padding-bottom: 40px;
+    }
+    
+    #About-me .skills-container{
+        border: 0px solid #89e3f5;
     }
 }
 
